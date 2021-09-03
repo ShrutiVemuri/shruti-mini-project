@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shruti's website</title>
+
+<section class="showcase">
+
+    <header > <h2 calss="logo">TRAVEL </h2> 
+
+ <div calss="toggle active"></div>
+    </header>
+  <video src="BLUE VIDS.mp4" muted loop autoplay></video>
+    <div class="overlay"> </div>
+    <div class="text">
+        <h2>Never let your memories </h2>
+        <h3>be grater than you </h3>
+     <p>By Shruti Vemuri</p>
+ <a href="#">Explore More</a>
+</div>
+<ul>
+    <li>
+       <a href="#"> <img src="facebook.png" alt="FaceBook link "></a></li>
+    <li><a href="#"><img src="twitter.png" alt="Twitter link"></a></li>
+    <li><a href="#"><img src="instagram.png" alt="InstaGram link"></a></li>
+</ul>
+
+
+
+</section>
+<div class="menu">
+    <ul>
+        <li><a href="#">Home</a></li>
+    <li><a href="#">Destinaion</a></li>
+    <li><a href="#">Availability</a></li>
+    <li><a href="#">Contact Us </a></li>
+    <li><a href="#">About Us </a></li>
+    </ul>
+</div>
+
+    
+
+
+</head>
+<body>
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+    </script>
+    
+</body>
+</html>
